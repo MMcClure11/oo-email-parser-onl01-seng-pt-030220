@@ -10,16 +10,18 @@ class EmailAddressParser
     @email_addresses = email_addresses
   end
   
-  # def parse
-  #   @email_addresses.split(/, | /).uniq
-  # end
+  #learn.co
+  def parse
+    @email_addresses.split(/, | /).uniq
+  end
   
+  #my original trying to get regex to work
   # email_array = @email_addresses.split(/[, ]/).uniq
   # email_array.reject! {|element| element.empty?}
   # email_array
-    def parse
-     email_array = @email_addresses.split(/[, ]/).uniq
-    end
+
+  #Ruth's 
+  
   
 end
 
