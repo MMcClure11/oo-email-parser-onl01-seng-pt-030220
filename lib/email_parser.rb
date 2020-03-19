@@ -17,8 +17,9 @@ class EmailAddressParser
   # email_array = @email_addresses.split(/[, ]/).uniq
   # email_array.reject! {|element| element.empty?}
   # email_array
-  
-  email_array = @email_addresses.split(/[, ]/).uniq
+    def parse
+     email_array = @email_addresses.split(/[, ]/).uniq
+    end
   
 end
 
